@@ -1,0 +1,150 @@
+
+# Topics 
+For each subject we discuss, we dive deeply into inner workings of the technologies and mechanisms behind it. This helps to develop a better understanding and to find hidden use cases and vulnerabilities that may arise. 
+# The List
+### Assembly language
+- Computer structure
+- CPU structure
+	- Clock
+	- Registers and cache
+	- ALU, IDU, MMU
+- RAM 
+	- Virtual vs Physical memory
+	- Memory layout, pages, frames
+	- Memory-mapped devices
+- Computer architecture
+	- CISC vs RISC
+	- 64 vs 32 vs 16 bits
+- Machine code
+	- Fetch-Decode-Execute cycle
+- Assembly language overview (x86 Intel)
+	- Mnemonics, codes and microcodes
+	- CPU clock cycles and clock frequency
+	- Intel vs AT&T syntax
+- Assembly instructions
+	- Addressing modes
+	- Assignment and `mov` instruction
+	- ALU and arithmetic instructions
+	- Control flow, jumps and conditional jumps. Labels
+	- Addressing with `lea`
+	- Stack operations with `push`, `pop`. `rsp` and `rbp` registers
+	- Subroutines with `call`, `ret` instructions. Calling conventions and ABIs
+	- System calls and `syscall`  instruction
+- Disassemblers comparison
+	- objdump
+	- radare2
+	- Binary Ninja
+	- Ghidra
+
+### Build process and ELF structure
+- Build process
+	- Preprocessing
+	- Parsing, syntactic and semantic validation
+	- Compiling
+	- Assembling
+	- Linking 
+- Linking in detail
+	- Shared objects and static libraries
+	- Static vs Dynamic linking
+	- GOT - Global Offset Table
+	- PLT - Procedure Linkage Table
+	- ld.so inner workings, `ldd` command
+- ELF files
+	- Common sections
+	- Architecture
+	- Statically vs Dynamically linked
+	- Stripped or not
+	- Stack canary
+	- NX bit
+	- PIE (PIC) property
+- ASLR and why we need it
+
+### Binary Exploitation
+- Buffer overflow
+	- Shellcodes
+	- `nop` sled
+	- Custom stack
+- Exploit mitigation techniques
+	- ASLR
+	- Stack canary
+	- NX bit
+- Environment injection
+- GOT dereference & GOT overwrite 
+- Return-to-libc attack
+- Return Oriented Programming (ROP)
+- Format String Exploit
+- Tools
+	- `pwntools` python library
+	- `radare2` suite 
+	- `gdb` debugger with `peda` plugin
+	- `strace` and `ltrace` utilities
+
+### Web
+- OSI model. HTTP and HTTPs protocols
+- URL anathomy
+- URL encoding
+- Client/server architecture
+- HTTP structure
+	- Headers
+	- Method
+	- GET & POST parameters
+	- Response code
+- HTTP auth
+- Cookies and JWT
+- DNS protocol
+	- Host header
+	- /etc/hosts file
+- robots.txt file
+- Vulnerabilities
+	- Client-side validation
+	- Code vs Data injections: XSS, SQLi etc.
+	- Local File Inclusion (LFI)
+- Tools
+	- `curl` or `wget`
+	- `requests` python library
+	- Wireshark
+	- Burpsuite
+	- `hydra` for busting credentials
+	- `gobuster` and `wfuzz` for directories and subdomains busting
+	- `sqlmap` for SQLi testing
+	- `john` or `hashcat` for hash cracking
+
+### Cryptography
+- Encoding vs Encrypting
+- Kerckhoffs's principle vs Security by obscurity
+- Ancient cryptography
+	- Monoalphabetic substitution ciphers (Caesar)
+	- Frequency analysis
+	- Polyalphabetic substitution ciphers (Vigenere)
+	- Index of coincidence
+	- Transposition ciphers (Rail Fence)
+- One-time Pad
+	- Indistinguishability
+	- Malleability
+- Random number generators
+	- RNG vs PRNG vs CSPRNG
+	- Bad examples (LCG, LFSR, Mersenne Twister)
+	- Salsa20 and Chacha20
+	- Nonce
+- Attack models
+	- Ciphertext only
+	- Known plaintext
+	- Chosen plaintext
+	- Chosen ciphertext
+- Stream vs Block ciphers
+	- Padding schemes
+	- Block cipher modes (ECB, CBC, CTR, GCM)
+	- Padding oracle attack
+- Storing passwords and cryptographic hash functions
+- Hash cracking methods
+	- Bruteforce
+	- Dictionary attacks
+	- Rainbow tables
+	- Pattern/Template substitution
+- Data authentication & HMAC
+- Hash length extension attack
+- Side channel attacks
+- Asymmetric cryptography
+	- Group theory, multiplicative group and elliptic curves
+	- Diffie-Hellman key exchange algorithm
+	- RSA algorithm
