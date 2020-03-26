@@ -13,6 +13,6 @@ Feel free to shoot an email to lyova.potyomkin@gmail.com or join us in Telegram 
 CTFTime Team: [Forkbenders](https://ctftime.org/team/85866)
 
 ## Links
-- [Gallery]()
-- [Topics](./Topics.html)
+- [Our Team](./Team.html)
+- [Stuff we do](./Topics.html)
 - [For Benders](./For-Benders.html)
