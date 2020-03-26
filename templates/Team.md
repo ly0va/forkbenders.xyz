@@ -13,7 +13,7 @@ Community founder, leader and main mentor.
 <img width=250px style="border-radius: 50%"
 src=https://forkbenders.xyz/images/vanya.jpg>
 
-### Vanya Borovoy
+### Ivan Borovoy
 
 ---
 
@@ -45,5 +45,5 @@ src=https://forkbenders.xyz/images/egor.jpg>
 ### Artem Siryk 😎
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjc1MjA0XX0=
+eyJoaXN0b3J5IjpbNTY1Nzk0ODExLC01MTY3NTIwNF19
 -->
