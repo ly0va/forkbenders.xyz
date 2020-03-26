@@ -12,5 +12,5 @@ Feel free to shoot an email to lyova.potyomkin@gmail.com or join us in Telegram 
 
 ## Links
 - [Gallery]()
-- [Topics](./topics.html)
-- [For Benders](./for-benders.html)
+- [Topics](./Topics.html)
+- [For Benders](./For-Benders.html)
