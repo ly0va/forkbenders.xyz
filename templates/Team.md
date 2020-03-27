@@ -20,7 +20,7 @@ src=https://forkbenders.xyz/images/vanya.jpg>
 <img width=250px style="border-radius: 50%"
 src=https://forkbenders.xyz/images/sidor.jpg>
 
-### Nikita Sidorenko
+### Nikita Sydorenko
 
 --- 
 
@@ -45,5 +45,6 @@ src=https://forkbenders.xyz/images/egor.jpg>
 ### Artem Siryk 😎
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1Nzk0ODExLC01MTY3NTIwNF19
+eyJoaXN0b3J5IjpbMTM4NzI5NTIxMSw1NjU3OTQ4MTEsLTUxNj
+c1MjA0XX0=
 -->
